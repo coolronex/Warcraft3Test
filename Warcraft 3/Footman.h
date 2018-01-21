@@ -1,16 +1,16 @@
 //
 //  Footman.h
-//  WarCarftIII
+//  Warcraft 3
 //
-//  Created by Aaron Dufall on 5/05/2014.
-//  Copyright (c) 2014 Lighthouse Labs. All rights reserved.
+//  Created by Aaron Chong on 1/21/18.
+//  Copyright © 2018 Lighthouse Labs. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "Unit.h"
 
-@interface Footman : NSObject
+@interface Footman : Unit
 
-@property (assign) int healthPoints;
-@property (assign) int attackPower;
+- (void) damage:(int)damage;
+- (void) attack:(Unit *)enemy withDamage:(int)damage;
 
 @end
