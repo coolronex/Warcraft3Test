@@ -10,4 +10,22 @@
 
 @implementation Unit
 
+-(instancetype)initWithHP:(int)hp AP:(int)ap {
+    
+    self = [super init];
+    if (self) {
+            
+        _healthPoints = hp;
+        _attackPower = ap;
+        
+    }
+    return self;
+}
+
+- (void)setHealthPoints:(int)hp {
+
+    
+}
+
+
 @end
