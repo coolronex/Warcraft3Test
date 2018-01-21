@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Footman.h"
+#import "Peasant.h"
 
 @interface Barracks : NSObject
 
@@ -17,7 +18,9 @@
 
 
 - (Footman *) trainFootman;
+- (Peasant *) trainPeasant;
 - (BOOL) canTrainFootman;
+- (BOOL) canTrainPeasant;
 - (void) setGold:(int)gold;
 - (void) setFood:(int)food;
 
