@@ -21,9 +21,9 @@
 		8311C6F1191CCB2300AF33F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C6F0191CCB2300AF33F3 /* main.m */; };
 		8311C6F5191CCB2300AF33F3 /* WCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C6F4191CCB2300AF33F3 /* WCAppDelegate.m */; };
 		8311C6F7191CCB2300AF33F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8311C6F6191CCB2300AF33F3 /* Images.xcassets */; };
-		8311C73D191CCCCD00AF33F3 /* Peasant.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C736191CCCCD00AF33F3 /* Peasant.m */; };
 		8311C73E191CCCCD00AF33F3 /* Unit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C738191CCCCD00AF33F3 /* Unit.m */; };
 		9770EBEE201542DF009D37FD /* Footman.m in Sources */ = {isa = PBXBuildFile; fileRef = 9770EBED201542DF009D37FD /* Footman.m */; };
+		9770EBF1201554A7009D37FD /* Peasant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9770EBF0201554A7009D37FD /* Peasant.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,13 +58,13 @@
 		8311C6F3191CCB2300AF33F3 /* WCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCAppDelegate.h; sourceTree = "<group>"; };
 		8311C6F4191CCB2300AF33F3 /* WCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCAppDelegate.m; sourceTree = "<group>"; };
 		8311C6F6191CCB2300AF33F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8311C735191CCCCD00AF33F3 /* Peasant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Peasant.h; sourceTree = "<group>"; };
-		8311C736191CCCCD00AF33F3 /* Peasant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Peasant.m; sourceTree = "<group>"; };
 		8311C737191CCCCD00AF33F3 /* Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit.h; sourceTree = "<group>"; };
 		8311C738191CCCCD00AF33F3 /* Unit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Unit.m; sourceTree = "<group>"; };
 		8311C739191CCCCD00AF33F3 /* WarCarftIII-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WarCarftIII-Prefix.pch"; sourceTree = "<group>"; };
 		9770EBEC201542DF009D37FD /* Footman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Footman.h; sourceTree = "<group>"; };
 		9770EBED201542DF009D37FD /* Footman.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Footman.m; sourceTree = "<group>"; };
+		9770EBEF201554A7009D37FD /* Peasant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Peasant.h; sourceTree = "<group>"; };
+		9770EBF0201554A7009D37FD /* Peasant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Peasant.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,8 +127,8 @@
 				12F9E63B1B6C489000C0C6FB /* Barracks.m */,
 				9770EBEC201542DF009D37FD /* Footman.h */,
 				9770EBED201542DF009D37FD /* Footman.m */,
-				8311C735191CCCCD00AF33F3 /* Peasant.h */,
-				8311C736191CCCCD00AF33F3 /* Peasant.m */,
+				9770EBEF201554A7009D37FD /* Peasant.h */,
+				9770EBF0201554A7009D37FD /* Peasant.m */,
 				8311C737191CCCCD00AF33F3 /* Unit.h */,
 				8311C738191CCCCD00AF33F3 /* Unit.m */,
 				8311C739191CCCCD00AF33F3 /* WarCarftIII-Prefix.pch */,
@@ -265,9 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9770EBF1201554A7009D37FD /* Peasant.m in Sources */,
 				8311C6F5191CCB2300AF33F3 /* WCAppDelegate.m in Sources */,
 				12F9E63C1B6C489000C0C6FB /* Barracks.m in Sources */,
-				8311C73D191CCCCD00AF33F3 /* Peasant.m in Sources */,
 				8311C73E191CCCCD00AF33F3 /* Unit.m in Sources */,
 				9770EBEE201542DF009D37FD /* Footman.m in Sources */,
 				8311C6F1191CCB2300AF33F3 /* main.m in Sources */,
